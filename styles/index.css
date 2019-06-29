@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Kanit', sans-serif;
+}
+
+.flag__container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+}
+
+.colors {
+  height: 100%;
+  min-width: 10%;
+  flex-grow: 1;
+  transition: min-width ease-in-out 1.3s;
+}
+
+.colors:hover {
+  min-width: 50%;
+}
+
+.marsha {
+  background-image: url('https://pixel.nymag.com/imgs/daily/vulture/2017/10/03/reviews/03-life-and-death-marsha-p-johnson.w700.h700.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.red {
+  background-color: rgb(228, 3, 3, 0.9);
+  transition: background-color ease-in-out 1.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red:hover {
+  background-color: rgb(228, 3, 3, 0.7);
+}
+
+.names {
+  display: none;
+  transition: display ease-in 2s;
+}
+
+.colors:hover .names {
+  display: inline-block;
+  color: white;
+  padding-top: 500px;
+}
+
+.sylvia {
+  background-image: url('https://makinggayhistory.com/wp-content/uploads/2016/10/Sylvia-Rivera-with-Banner.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.orange {
+  background-color: rgba(255, 140, 0, 0.9);
+  transition: background-color ease-in-out 1.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orange:hover {
+  background-color: rgba(255, 140, 0, 0.7);
+}
+
+.storme {
+  background-image: url('https://pbs.twimg.com/media/C6al-enUsAA62gE.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.yellow {
+  background-color: rgba(255, 237, 0, 0.9);
+  transition: background-color ease-in-out 1.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow:hover {
+  background-color: rgba(255, 237, 0, 0.7);  
+}
+
+.miss-major {
+  background-image: url('http://jawbreaker.nyc/wp-content/uploads/2016/02/MissMajorCropped.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.green {
+  background-color: rgba(30, 177, 63, 0.9);
+  transition: background-color ease-in-out 1.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green:hover {
+  background-color: rgba(30, 177, 63, 0.7);   
+}
+
+.raymond {
+  background-image: url('https://media3.s-nbcnews.com/j/newscms/2019_21/2866731/pride-50-raymond-castro_d73c4e338a9aa7c0fc662aa2d92b9c5e.fit-360w.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.blue {
+  background-color: rgba(0, 77, 255, 0.9);
+  transition: background-color ease-in-out 1.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue:hover {
+  background-color: rgba(0, 77, 255, 0.7);    
+}
+
+.segal {
+  background-image: url('https://i2-prod.mirror.co.uk/incoming/article16536293.ece/ALTERNATES/s810/1_Stonewall-images.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.purple {
+  background-color: rgba(117, 7, 135, 0.9);
+  transition: background-color ease-in-out 1.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.purple:hover {
+  background-color: rgba(117, 7, 135, 0.7);   
+}
+
+.thanks {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 55px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media all and (min-width: 500px) {
+  .thanks {
+    font-size: 80px;
+    font-weight: 700;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .thanks {
+    font-size: 100px;
+    font-weight: 800;
+  }
+}
